@@ -22,7 +22,7 @@ app.get('/hehe/:navn', function (req, res) {
 })
 
 app.listen(32463, function () {
-  console.log('Lytter til port port 32463!')
+  console.log('Lytter til port 32463!')
 })
 
 //app.use(express.static('public'))
