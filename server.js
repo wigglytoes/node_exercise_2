@@ -21,8 +21,8 @@ app.get('/hehe/:navn', function (req, res) {
   res.send(randomGreeting() + " " + req.params.navn)
 })
 
-app.listen(8080, function () {
-  console.log('Example app listening on port 8080!')
+app.listen(32463, function () {
+  console.log('Lytter til port port 32463!')
 })
 
 //app.use(express.static('public'))
