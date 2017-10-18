@@ -3,5 +3,5 @@
 Url til heroku: 
 
 ```
-https://evening-springs-27284.herokuapp.com/
+https://blooming-cliffs-10045.herokuapp.com/
 ```
