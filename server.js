@@ -15,7 +15,9 @@ function randomGreeting(){
     return toBeShown;
 }
 
-
+app.get('/', function(request, response) {
+  response.render('pages/index');
+});
 
 /*
 app.get('/hehe/:navn', function (req, res) {
