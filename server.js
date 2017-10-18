@@ -15,9 +15,12 @@ function randomGreeting(){
     return toBeShown;
 }
 
+
+
+/*
 app.get('/hehe/:navn', function (req, res) {
   res.send(randomGreeting() + " " + req.params.navn)
-})
+})*/
 
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
