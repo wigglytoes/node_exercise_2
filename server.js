@@ -21,14 +21,15 @@ app.get('/hehe/:navn', function (req, res) {
   res.send(randomGreeting() + " " + req.params.navn)
 })
 
-
+/*
 app.listen('port', (process.env.PORT || 8080));
 app.use(express.static('public'));
 app.use(bodyParser.json());
+*/
 
-/*app.listen(32463, function () {
+app.listen('port', (process.env.PORT || 8080)) {
   console.log('Lytter til port 32463!')
-})*/
+})
 
 //app.use(express.static('public'))
 
