@@ -27,9 +27,7 @@ app.use(express.static('public'));
 app.use(bodyParser.json());
 */
 
-app.listen('port', (process.env.PORT || 8080)) {
-  console.log('Lytter til port 32463!')
-})
+app.set('port', (process.env.PORT || 8080));
 
 //app.use(express.static('public'))
 
